@@ -16,6 +16,7 @@
 		57D0CEA3232EACEB0063D5D1 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0CEA2232EACEB0063D5D1 /* PhotoCollectionViewController.swift */; };
 		57D0CEA5232EACF90063D5D1 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0CEA4232EACF90063D5D1 /* PhotoCollectionViewCell.swift */; };
 		57D0CEA7232EAE8F0063D5D1 /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0CEA6232EAE8F0063D5D1 /* PhotoController.swift */; };
+		57D0CEA9232EB2AF0063D5D1 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0CEA8232EB2AF0063D5D1 /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		57D0CEA2232EACEB0063D5D1 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
 		57D0CEA4232EACF90063D5D1 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		57D0CEA6232EAE8F0063D5D1 /* PhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
+		57D0CEA8232EB2AF0063D5D1 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		57D0CE9D232EA0A10063D5D1 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
+				57D0CEA8232EB2AF0063D5D1 /* Service.swift */,
 			);
 			path = Supporting;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57D0CEA7232EAE8F0063D5D1 /* PhotoController.swift in Sources */,
+				57D0CEA9232EB2AF0063D5D1 /* Service.swift in Sources */,
 				57D0CEA1232EA3150063D5D1 /* DataGetter.swift in Sources */,
 				57D0CEA5232EACF90063D5D1 /* PhotoCollectionViewCell.swift in Sources */,
 				57D0CE9F232EA2780063D5D1 /* Photo.swift in Sources */,

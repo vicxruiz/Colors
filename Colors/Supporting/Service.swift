@@ -1,5 +1,5 @@
 //
-//  Photo.swift
+//  Service.swift
 //  Colors
 //
 //  Created by Victor  on 9/15/19.
@@ -7,10 +7,6 @@
 //
 
 import Foundation
+import UIKit
 
-struct Photo: Codable {
-    var albumId: Int
-    var id: Int
-    var title: String
-    var url: String
-}
+
