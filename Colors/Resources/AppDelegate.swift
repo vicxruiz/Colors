@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let navigationController = UINavigationController(rootViewController: PhotoCollectionViewController())
+        navigationController.navigationBar.barTintColor = UIColor(red: 31/255, green: 33/255, blue: 36/255, alpha: 1)
+        let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+        navigationController.navigationBar.titleTextAttributes = textAttributes
+        navigationController.navigationBar.tintColor = .white
+        window?.rootViewController = navigationController
         return true
     }
 
